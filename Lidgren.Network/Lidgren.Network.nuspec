@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+    <metadata>
+        <id>Lidgren.Network</id>
+        <version>$version$</version>
+        <title>Lidgren.Network</title>
+        <authors>Michael Lidgren</authors>
+        <owners>Michael Lidgren</owners>
+        <projectUrl>https://github.com/Facepunch/lidgren-network-gen3</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Lidgren.Network is a networking library for .net framework which uses a single udp socket to deliver a simple API for connecting a client to a server, reading and sending messages.</description>
+        <copyright>Copyright Michael Lidgren 2016</copyright>
+        <tags>networking</tags>
+    </metadata>
+    <files>
+        <file src="bin\Release\net451\Lidgren.Network.dll" target="lib\net451\Lidgren.Network.dll" />
+        <file src="bin\Release\net451\Lidgren.Network.pdb" target="lib\net451\Lidgren.Network.pdb" />
+        <file src="bin\Release\net35\Lidgren.Network.dll" target="lib\net35\Lidgren.Network.dll" />
+        <file src="bin\Release\net35\Lidgren.Network.pdb" target="lib\net35\Lidgren.Network.pdb" />
+    </files>
+</package>
